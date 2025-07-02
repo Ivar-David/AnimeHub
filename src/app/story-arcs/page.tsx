@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { BookOpen } from 'lucide-react';
@@ -7,43 +8,43 @@ const storyArcs = [
     title: 'Reincarnation Arc',
     reference: 'LN Vol. 1 / Anime Ep. 1-8',
     summary: 'A 37-year-old salaryman is reincarnated as a slime in a new world. He befriends the Storm Dragon Veldora, gains immense power, and begins his journey.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'fantasy world anime',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/6/67/Veldora_meets_Rimuru.png',
+    dataAiHint: 'slime dragon',
   },
   {
     title: 'Orc Disaster Arc',
     reference: 'LN Vol. 1-2 / Anime Ep. 9-14',
     summary: 'Rimuru and his growing nation face the threat of the Orc Lord and his rampaging army. He unites the Lizardmen and Ogres to confront this disaster.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'orc army battle',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/d/d2/Rimuru_vs_Orc_Disaster.png',
+    dataAiHint: 'orc battle',
   },
   {
     title: 'Demon Lord Awakening Arc',
     reference: 'LN Vol. 5 / Anime Season 2 Part 1',
     summary: 'The Kingdom of Falmuth invades Tempest, leading to a tragic loss. To protect his people, Rimuru makes the ultimate choice to become a Demon Lord.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'dark lord throne',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/c/c5/Rimuru_Demon_Lord_Evolution.png',
+    dataAiHint: 'demon lord',
   },
   {
     title: 'Walpurgis Banquet Arc',
     reference: 'LN Vol. 6 / Anime Season 2 Part 2',
     summary: 'Now a Demon Lord, Rimuru attends Walpurgis, the banquet of the Demon Lords, to settle his score with Clayman and establish his place among the world\'s most powerful beings.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'fantasy banquet evil',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/5/52/Walpurgis_Anime.png',
+    dataAiHint: 'demons banquet',
   },
   {
     title: 'Holy Empire Arc',
     reference: 'LN Vol. 7 / Not yet adapted',
     summary: 'Tempest faces a new threat from the Holy Empire of Lubelius, led by the formidable Hinata Sakaguchi. A battle of ideals, power, and diplomacy unfolds.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'holy knight fantasy',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/9/91/Hinata_vs_Rimuru_Anime_S2.png',
+    dataAiHint: 'holy knight',
   },
   {
     title: 'Eastern Empire Arc',
     reference: 'LN Vol. 13-16 / Not yet adapted',
     summary: 'The powerful Eastern Empire finally makes its move against the Jura Tempest Federation, leading to a full-scale war that tests the limits of Rimuru and his subordinates.',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'fantasy empire war',
+    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/0/05/Eastern_Empire_Army.png',
+    dataAiHint: 'fantasy army',
   },
 ];
 
