@@ -2,10 +2,11 @@
 import Link from 'next/link';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import { Menu, Swords } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
+import { GrimoireLogo } from './grimoire-logo';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -25,7 +26,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-primary/20 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <Swords className="h-8 w-8 text-primary" />
+          <GrimoireLogo className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold font-headline text-primary">Tempest Grimoire</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -53,7 +54,7 @@ export function Header() {
             <SheetContent side="right" className="bg-background/95">
               <div className="grid gap-4 py-6">
                 <Link href="/" className="flex items-center gap-2 mb-4" onClick={() => setIsOpen(false)}>
-                  <Swords className="h-8 w-8 text-primary" />
+                  <GrimoireLogo className="h-8 w-8 text-primary" />
                   <span className="text-xl font-bold font-headline text-primary">Tempest Grimoire</span>
                 </Link>
                 <nav className="grid gap-2">
