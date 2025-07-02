@@ -79,6 +79,52 @@
   .glowing-button.variant-accent {
       @apply bg-accent text-accent-foreground hover:bg-accent/90 hover:shadow-[0_0_15px_0px] hover:shadow-accent/50;
   }
+
+  .timeline {
+    @apply relative max-w-4xl mx-auto;
+  }
+  .timeline::after {
+    @apply content-[''] absolute w-1 h-full bg-primary/20 top-0 left-1/2 -ml-[2px];
+  }
+  .timeline-item {
+    @apply relative mb-12;
+  }
+  .timeline-item:nth-child(odd) {
+    @apply pr-8;
+  }
+  .timeline-item:nth-child(even) {
+    @apply pl-8;
+  }
+  .timeline-content-wrapper {
+    @apply w-[calc(50%-2rem)] relative;
+  }
+  .timeline-item:nth-child(odd) .timeline-content-wrapper {
+    @apply float-left text-right;
+  }
+  .timeline-item:nth-child(even) .timeline-content-wrapper {
+    @apply float-right text-left;
+  }
+  .timeline-icon {
+    @apply absolute w-8 h-8 rounded-full bg-accent border-4 border-background top-0 left-1/2 -ml-4 z-10 flex items-center justify-center text-accent-foreground;
+  }
+
+  @media screen and (max-width: 768px) {
+    .timeline::after {
+      @apply left-4;
+    }
+    .timeline-item:nth-child(odd), .timeline-item:nth-child(even) {
+      @apply pl-16 pr-0;
+    }
+    .timeline-content-wrapper {
+      @apply w-full;
+    }
+    .timeline-item:nth-child(odd) .timeline-content-wrapper, .timeline-item:nth-child(even) .timeline-content-wrapper {
+      @apply float-none text-left;
+    }
+    .timeline-icon {
+      @apply left-4;
+    }
+  }
 }
 
 .particle {
