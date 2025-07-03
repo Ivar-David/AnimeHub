@@ -34,7 +34,7 @@ const characters: Character[] = [
   {
     name: 'Rimuru Tempest',
     race: 'Ultimate Slime',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/b/b0/Rimuru_Tempest_Anime_Demon_Lord.png',
+    image: 'https://i.pinimg.com/736x/34/69/8b/34698be2459f7b2656a1d776ded179ff.jpg',
     dataAiHint: 'slime human anime',
     shortQuote: 'I’ll protect my people...',
     fullQuote: 'I’ll protect my people—no matter the cost.',
@@ -45,7 +45,7 @@ const characters: Character[] = [
   {
     name: 'Benimaru',
     race: 'Kijin',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/8/8c/Benimaru_Anime_2.png',
+    image: 'https://i.redd.it/08agp1ackvxa1.jpg',
     dataAiHint: 'red demon anime',
     shortQuote: "I am Rimuru-sama's loyal shadow.",
     fullQuote: "I am Rimuru-sama's loyal shadow. I will eliminate any who stand in his way.",
@@ -56,7 +56,7 @@ const characters: Character[] = [
   {
     name: 'Shion',
     race: 'Kijin',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/7/77/Shion_Anime_2.png',
+    image: 'https://i.pinimg.com/1200x/eb/65/b2/eb65b25ff6d4447afb885110e40e739e.jpg',
     dataAiHint: 'purple hair warrior',
     shortQuote: 'Rimuru-sama is everything!',
     fullQuote: 'My loyalty and my cooking are both dedicated to Rimuru-sama!',
@@ -67,7 +67,7 @@ const characters: Character[] = [
   {
     name: 'Shuna',
     race: 'Kijin',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/a/a2/Shuna_Anime_2.png',
+    image: 'https://pm1.aminoapps.com/6992/7c120c20d80b83b8d748e027ca91c472b5e5f6f6r1-1000-1000v2_hq.jpg',
     dataAiHint: 'pink hair priestess',
     shortQuote: 'Diplomacy is a battlefield too.',
     fullQuote: 'Diplomacy is a battlefield too. One where smiles are sharper than swords.',
@@ -78,7 +78,7 @@ const characters: Character[] = [
   {
     name: 'Souei',
     race: 'Kijin',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/a/a3/Souei_Anime_2.png',
+    image: 'https://i.redd.it/9iq87m999gb71.jpg',
     dataAiHint: 'ninja spy anime',
     shortQuote: 'Mission complete.',
     fullQuote: 'I operate in the shadows to ensure the light of Tempest never fades. Mission complete.',
@@ -89,7 +89,7 @@ const characters: Character[] = [
   {
     name: 'Diablo',
     race: 'Primordial Demon',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/a/a3/Diablo_Anime_2.png',
+    image: 'https://i.pinimg.com/736x/54/9c/86/549c867a2ba5e43d9dd3ab6d39d2fbe2.jpg',
     dataAiHint: 'butler demon anime',
     shortQuote: 'Kufufufu... a wonderful soul.',
     fullQuote: 'Kufufufu... serving Lord Rimuru is the greatest pleasure imaginable.',
@@ -101,7 +101,7 @@ const characters: Character[] = [
   {
     name: 'Milim Nava',
     race: 'Dragonoid',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/9/95/Milim_Nava_Anime.png',
+    image: 'https://thaigameguide.com/wiki/wp-content/uploads/2022/11/Powerful-Princess-Milim-Nava.jpg',
     dataAiHint: 'pink hair girl anime',
     shortQuote: 'This is playtime!',
     fullQuote: "This isn’t rage. This is playtime. And you're my new toy!",
@@ -112,7 +112,7 @@ const characters: Character[] = [
   {
     name: 'Veldora Tempest',
     race: 'True Dragon',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/c/c2/Veldora_Tempest_Human_Form_Anime.png',
+    image: 'https://preview.redd.it/4z9t57e3tai71.jpg?width=640&crop=smart&auto=webp&s=4b2d4517bd56d8de2db0d602885f9d587bf40c75',
     dataAiHint: 'dragon anime blonde man',
     shortQuote: 'Kwahahaha! Fear me!',
     fullQuote: 'Kwahahaha! I am the Storm Dragon Veldora! To underestimate me is to court death!',
@@ -123,7 +123,7 @@ const characters: Character[] = [
   {
     name: 'Clayman',
     race: 'Deathman',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/a/ab/Clayman_Anime.png',
+    image: 'https://thaigameguide.com/wiki/wp-content/uploads/2022/10/The-Marionette-Master-Clayman.jpg',
     dataAiHint: 'evil jester anime',
     shortQuote: 'It was all part of my plan.',
     fullQuote: 'Everything is a puppet on my strings. It was all part of my grand plan!',
@@ -135,7 +135,7 @@ const characters: Character[] = [
   {
     name: 'Shizue Izawa',
     race: 'Human',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/6/62/Shizue_Izawa_Anime_2.png',
+    image: 'https://i.redd.it/6yyspqpkq0t81.jpg',
     dataAiHint: 'female hero anime',
     shortQuote: 'Please... devour me.',
     fullQuote: 'My only wish is to rest within someone from my homeland. Please... devour me.',
@@ -146,7 +146,7 @@ const characters: Character[] = [
   {
     name: 'Hinata Sakaguchi',
     race: 'Human',
-    image: 'https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/0/00/Hinata_Sakaguchi_Anime_2.png',
+    image: 'https://i.pinimg.com/474x/30/45/0a/30450a95763bb9c440cd916cbbd9162a.jpg',
     dataAiHint: 'holy knight woman anime',
     shortQuote: 'Even monsters have principles.',
     fullQuote: 'I will eliminate all monsters for the sake of humanity. That is my justice.',
